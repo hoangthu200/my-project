@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBack">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLayerBack"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/firstlayer">
+
+            <ImageView
+                android:layout_marginTop="50px"
+                android:layout_marginBottom="50px"
+                android:layout_width="300px"
+                android:layout_height="300px"
+                android:src="@drawable/avata"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:text="Hoang Thu"
+                android:textColor="@color/colorTitle"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:text="Dai Loc, Quang Nam"
+                android:textColor="@color/colorTitle"
+                android:layout_marginBottom="50px"
+                android:layout_marginTop="5px"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="50px"
+            android:paddingTop="70px"
+            android:paddingBottom="70px"
+            android:gravity="center"
+            android:background="@drawable/secondlayer">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5k"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorTitleWhile"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Likes"
+                    android:textSize="25sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorsubTitleWhile"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px"
+                android:background="@color/colorPrimaryDark"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="150"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorTitleWhile"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Following"
+                    android:textSize="25sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorsubTitleWhile"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px"
+                android:background="@color/colorPrimaryDark"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5k"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorTitleWhile"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Followers"
+                    android:textSize="25sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorsubTitleWhile"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="50px"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120px">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTitleWhile"
+                android:textSize="35px"
+                android:textStyle="bold"
+                android:text="Email"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTitleWhile"
+                android:textSize="30px"
+                android:textStyle="normal"
+                android:text="vothihoangthu1003200@gmail.com"/>
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:layout_marginTop="10px"
+            android:layout_marginRight="20px"
+            android:layout_marginBottom="10px"
+            android:background="@color/colorHorizontalDivider"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTitleWhile"
+                android:textSize="35px"
+                android:textStyle="bold"
+                android:text="Phone"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTitleWhile"
+                android:textSize="30px"
+                android:textStyle="normal"
+                android:text="0354264419"/>
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:layout_marginTop="10px"
+            android:layout_marginRight="20px"
+            android:layout_marginBottom="10px"
+            android:background="@color/colorHorizontalDivider"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTitleWhile"
+                android:textSize="35px"
+                android:textStyle="bold"
+                android:text="Date"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTitleWhile"
+                android:textSize="30px"
+                android:textStyle="normal"
+                android:text="10 March 2000"/>
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:layout_marginTop="10px"
+            android:layout_marginRight="20px"
+            android:layout_marginBottom="10px"
+            android:background="@color/colorHorizontalDivider"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
